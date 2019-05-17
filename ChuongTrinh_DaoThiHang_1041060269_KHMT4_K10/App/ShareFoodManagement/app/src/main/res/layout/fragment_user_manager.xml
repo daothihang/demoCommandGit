@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.UserManagerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#F5F5F5"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.example.sharefoodmanagement.view.CustomItalyTextView
+                        android:layout_width="wrap_content"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_down_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:padding="3dp"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/list_user"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <com.example.sharefoodmanagement.view.CustomListView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/lvUsers"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#F5F5F5"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.example.sharefoodmanagement.view.CustomItalyTextView
+                        android:layout_width="wrap_content"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_down_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:padding="3dp"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/list_manager"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <com.example.sharefoodmanagement.view.CustomListView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/lvManager"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

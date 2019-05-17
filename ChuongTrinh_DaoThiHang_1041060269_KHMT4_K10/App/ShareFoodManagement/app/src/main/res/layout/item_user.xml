@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:id="@+id/imgAvatrUser"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading"
+        android:layout_height="50dp" />
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.sharefoodmanagement.view.CustomItalyTextView
+            android:layout_width="match_parent"
+            android:text="@string/app_name"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tvNameUser"
+            android:lines="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

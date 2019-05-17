@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="?android:attr/actionBarSize">
+        <com.example.sharefoodmanagement.view.CustomItalyTextView
+            android:layout_width="wrap_content"
+            style="?android:attr/textAppearanceLarge"
+            android:text="@string/add_food"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.sharefoodmanagement.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/name_food"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtNameFood"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="@string/name_food"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefoodmanagement.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/price_food"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtPriceFood"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="@string/price_food"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefoodmanagement.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/desc_food"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtDescFood"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/desc_food"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefoodmanagement.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/link_food"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtImageFood"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/link_food"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefoodmanagement.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/recipe_food"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtRecipeFood"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/recipe_food"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:id="@+id/spinnerCategory"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginBottom="20dp"
+                android:id="@+id/btnUpdateFood"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                style="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:background="@drawable/baclground_ver2"
+                android:text="@string/add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

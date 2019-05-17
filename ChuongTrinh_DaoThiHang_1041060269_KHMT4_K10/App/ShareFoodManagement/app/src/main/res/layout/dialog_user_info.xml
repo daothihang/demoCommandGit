@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgAvatrUserInfo"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading"
+        android:layout_height="100dp" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:text="@string/app_name"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvNameUserInfo"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvUserNameUserInfo"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvPassUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvPhoneUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvGenderUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvAddessUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvCreated_atUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvPermissionUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+    <com.example.sharefoodmanagement.view.CustomItalyTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvLockUserInfo"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+</LinearLayout>

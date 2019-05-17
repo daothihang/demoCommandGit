@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00ffffff"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_margin="15dp"
+        android:drawablePadding="-30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_search"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:text="@string/search"
+        android:background="@drawable/background_ver1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_margin="15dp"
+        android:drawablePadding="-30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_category"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:text="@string/category"
+        android:background="@drawable/baclground_ver2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btnMap"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:drawablePadding="-30dp"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:drawableLeft="@drawable/ic_map"-->
+        <!--style="?android:attr/textAppearanceMedium"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="@string/map"-->
+        <!--android:background="@drawable/baclground_ver3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnRestaurant"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:drawablePadding="-30dp"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:drawableLeft="@drawable/ic_restaurant"-->
+        <!--style="?android:attr/textAppearanceMedium"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="@string/list_restaurant"-->
+        <!--android:background="@drawable/baclground_ver4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <Button
+        android:id="@+id/btnFavRestaurant"
+        android:layout_margin="15dp"
+        android:drawablePadding="-30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:text="@string/fav"
+        android:background="@drawable/baclground_ver3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnResgisterRestaurant"
+        android:layout_margin="15dp"
+        android:drawablePadding="-30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_register_restaurant"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:text="@string/register_restaurant"
+        android:background="@drawable/baclground_ver3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_margin="15dp"
+        android:drawablePadding="-30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_login"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:background="@drawable/baclground_ver4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnEditInfo"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        android:drawablePadding="-30dp"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_login"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:text="@string/edit_info"
+        android:background="@drawable/baclground_ver4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegisterRestaurantActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarRegisterRestaurant"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        app:title="@string/register_restaurant"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        android:background="@color/colorPrimary"
+        android:layout_height="?android:attr/actionBarSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/name_res"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtNameRes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="@string/name_restaurant"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/open_time"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:focusable="false"
+                android:textAlignment="center"
+                android:id="@+id/edtOpenTimeRes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="@string/open_restaurant"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/close_time"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:focusable="false"
+                android:textAlignment="center"
+                android:id="@+id/edtCloseTimeRes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="@string/close_restaurant"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/address_res"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtAddressRes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/address"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/phone_res"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtPhoneRes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="number"
+                android:hint="@string/phone"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/website"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtWebsiteRes"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:hint="@string/web"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/logo_res"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtLogoRes"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/logo"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/thumbnai_res"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/edtThumbnailRes"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/logo"
+                android:background="@drawable/spinner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_background"
+                android:id="@+id/spinnerProvince"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnRegisterRes"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                style="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:background="@drawable/baclground_ver2"
+                android:text="@string/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodDetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarFoodDetail"
+        android:layout_width="match_parent"
+        app:title="@string/food_detail"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        android:background="@color/colorPrimary"
+        android:layout_height="?android:attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgLogoFoodDetail"
+                android:src="@drawable/loading"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvNameFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:padding="10dp"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnCallFoodDetail"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="30dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:layout_marginLeft="30dp"
+                android:drawablePadding="-20dp"
+                android:layout_marginRight="30dp"
+                style="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:text="@string/call"
+                android:background="@drawable/background_ver1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/res_info"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                style="?android:attr/textAppearanceMedium"
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvNameResFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/ic_res"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvTimeOpenFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/ic_open_time"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvAddressFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/ic_address"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvWebsiteFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/ic_web"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/food_info"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                style="?android:attr/textAppearanceMedium"
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvPriceFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/ic_price"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvFoodInfoFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="15dp"
+                android:padding="5dp"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/recipe"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                style="?android:attr/textAppearanceMedium"
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:id="@+id/tvFoodRecipeFoodDetail"
+                android:layout_width="wrap_content"
+                android:text="@string/app_name"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="15dp"
+                android:padding="5dp"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/map"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                style="?android:attr/textAppearanceMedium"
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_height="wrap_content" />
+
+            <fragment
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/myMap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <com.example.sharefood.view.CustomItalyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/comments"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                style="?android:attr/textAppearanceMedium"
+                android:drawableLeft="@drawable/ic_point"
+                android:layout_height="wrap_content" />
+
+            <com.example.sharefood.view.CustomListView
+                android:layout_width="match_parent"
+                android:id="@+id/lvFoodComment"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:hint="@string/enter_comment"
+                    android:id="@+id/edtComment"
+                    android:layout_marginRight="5dp"
+                    android:padding="10dp"
+                    android:background="@drawable/spinner_background"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnSendComment"
+                    android:background="@drawable/baclground_ver4"
+                    android:textColor="@color/white"
+                    android:text="@string/send"
+                    android:layout_weight=".15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
